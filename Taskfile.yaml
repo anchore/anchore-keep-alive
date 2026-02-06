@@ -1,0 +1,7 @@
+version: "3"
+
+tasks:
+  build:
+    desc: Build snapshot binaries using goreleaser
+    cmds:
+      - goreleaser build --snapshot --clean
